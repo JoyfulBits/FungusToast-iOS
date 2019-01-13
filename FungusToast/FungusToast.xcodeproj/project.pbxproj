@@ -17,6 +17,9 @@
 		2D7C7EA621EABBDA000625D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D7C7EA421EABBDA000625D0 /* LaunchScreen.storyboard */; };
 		2D7C7EB121EABBDA000625D0 /* FungusToastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7C7EB021EABBDA000625D0 /* FungusToastTests.swift */; };
 		2D7C7EBC21EABBDA000625D0 /* FungusToastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7C7EBB21EABBDA000625D0 /* FungusToastUITests.swift */; };
+		5F41131938FE5F601C467389 /* Pods_FungusToast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1371BE3813CB7138F0AE7777 /* Pods_FungusToast.framework */; };
+		E4B02F5C15B675CF07F00015 /* Pods_FungusToastUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0004CDB6677A9735758F963B /* Pods_FungusToastUITests.framework */; };
+		F416E5D83482000F93124A78 /* Pods_FungusToastTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E06F06ECCFAC2C344BC8A8 /* Pods_FungusToastTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0004CDB6677A9735758F963B /* Pods_FungusToastUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FungusToastUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0FFB009F96243C372D1195FC /* Pods-FungusToastUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FungusToastUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FungusToastUITests/Pods-FungusToastUITests.release.xcconfig"; sourceTree = "<group>"; };
+		1371BE3813CB7138F0AE7777 /* Pods_FungusToast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FungusToast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26146A02FF73DE67AE311051 /* Pods-FungusToastTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FungusToastTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FungusToastTests/Pods-FungusToastTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D7C7E9221EABBD9000625D0 /* FungusToast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FungusToast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D7C7E9521EABBD9000625D0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2D7C7E9721EABBD9000625D0 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -53,6 +60,11 @@
 		2D7C7EB721EABBDA000625D0 /* FungusToastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FungusToastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D7C7EBB21EABBDA000625D0 /* FungusToastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FungusToastUITests.swift; sourceTree = "<group>"; };
 		2D7C7EBD21EABBDA000625D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30382BEDEFD0BD3FC9093FCC /* Pods-FungusToastTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FungusToastTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FungusToastTests/Pods-FungusToastTests.release.xcconfig"; sourceTree = "<group>"; };
+		9E22A8D3A98FC16AAEB5E3A3 /* Pods-FungusToast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FungusToast.release.xcconfig"; path = "Pods/Target Support Files/Pods-FungusToast/Pods-FungusToast.release.xcconfig"; sourceTree = "<group>"; };
+		C4D3BC7087E87504ECC1E5C5 /* Pods-FungusToastUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FungusToastUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FungusToastUITests/Pods-FungusToastUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D6E06F06ECCFAC2C344BC8A8 /* Pods_FungusToastTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FungusToastTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC25A99FA3B071528D1D75E2 /* Pods-FungusToast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FungusToast.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FungusToast/Pods-FungusToast.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F41131938FE5F601C467389 /* Pods_FungusToast.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F416E5D83482000F93124A78 /* Pods_FungusToastTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E4B02F5C15B675CF07F00015 /* Pods_FungusToastUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,6 +102,8 @@
 				2D7C7EAF21EABBDA000625D0 /* FungusToastTests */,
 				2D7C7EBA21EABBDA000625D0 /* FungusToastUITests */,
 				2D7C7E9321EABBD9000625D0 /* Products */,
+				A00917BAF82C6569114420F3 /* Pods */,
+				70513F04CCDB727FE60CAE5D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,6 +151,29 @@
 			path = FungusToastUITests;
 			sourceTree = "<group>";
 		};
+		70513F04CCDB727FE60CAE5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1371BE3813CB7138F0AE7777 /* Pods_FungusToast.framework */,
+				D6E06F06ECCFAC2C344BC8A8 /* Pods_FungusToastTests.framework */,
+				0004CDB6677A9735758F963B /* Pods_FungusToastUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A00917BAF82C6569114420F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FC25A99FA3B071528D1D75E2 /* Pods-FungusToast.debug.xcconfig */,
+				9E22A8D3A98FC16AAEB5E3A3 /* Pods-FungusToast.release.xcconfig */,
+				26146A02FF73DE67AE311051 /* Pods-FungusToastTests.debug.xcconfig */,
+				30382BEDEFD0BD3FC9093FCC /* Pods-FungusToastTests.release.xcconfig */,
+				C4D3BC7087E87504ECC1E5C5 /* Pods-FungusToastUITests.debug.xcconfig */,
+				0FFB009F96243C372D1195FC /* Pods-FungusToastUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -141,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D7C7EC021EABBDA000625D0 /* Build configuration list for PBXNativeTarget "FungusToast" */;
 			buildPhases = (
+				99EBFA3CFFCA39576149AF73 /* [CP] Check Pods Manifest.lock */,
 				2D7C7E8E21EABBD9000625D0 /* Sources */,
 				2D7C7E8F21EABBD9000625D0 /* Frameworks */,
 				2D7C7E9021EABBD9000625D0 /* Resources */,
+				596DBA8FCE330FBA824C69BA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D7C7EC321EABBDA000625D0 /* Build configuration list for PBXNativeTarget "FungusToastTests" */;
 			buildPhases = (
+				4AEE6C32248D3CC71A1C6AE3 /* [CP] Check Pods Manifest.lock */,
 				2D7C7EA821EABBDA000625D0 /* Sources */,
 				2D7C7EA921EABBDA000625D0 /* Frameworks */,
 				2D7C7EAA21EABBDA000625D0 /* Resources */,
@@ -176,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2D7C7EC621EABBDA000625D0 /* Build configuration list for PBXNativeTarget "FungusToastUITests" */;
 			buildPhases = (
+				C05F96AC47FEF14124B24414 /* [CP] Check Pods Manifest.lock */,
 				2D7C7EB321EABBDA000625D0 /* Sources */,
 				2D7C7EB421EABBDA000625D0 /* Frameworks */,
 				2D7C7EB521EABBDA000625D0 /* Resources */,
@@ -261,6 +305,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4AEE6C32248D3CC71A1C6AE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FungusToastTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		596DBA8FCE330FBA824C69BA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FungusToast/Pods-FungusToast-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftPhoenixClient/SwiftPhoenixClient.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftPhoenixClient.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FungusToast/Pods-FungusToast-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		99EBFA3CFFCA39576149AF73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FungusToast-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C05F96AC47FEF14124B24414 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FungusToastUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2D7C7E8E21EABBD9000625D0 /* Sources */ = {
@@ -442,6 +579,7 @@
 		};
 		2D7C7EC121EABBDA000625D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FC25A99FA3B071528D1D75E2 /* Pods-FungusToast.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -460,6 +598,7 @@
 		};
 		2D7C7EC221EABBDA000625D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E22A8D3A98FC16AAEB5E3A3 /* Pods-FungusToast.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -478,6 +617,7 @@
 		};
 		2D7C7EC421EABBDA000625D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26146A02FF73DE67AE311051 /* Pods-FungusToastTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +638,7 @@
 		};
 		2D7C7EC521EABBDA000625D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30382BEDEFD0BD3FC9093FCC /* Pods-FungusToastTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -518,6 +659,7 @@
 		};
 		2D7C7EC721EABBDA000625D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4D3BC7087E87504ECC1E5C5 /* Pods-FungusToastUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -537,6 +679,7 @@
 		};
 		2D7C7EC821EABBDA000625D0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FFB009F96243C372D1195FC /* Pods-FungusToastUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

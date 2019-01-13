@@ -1,0 +1,6 @@
+framework module Pods_FungusToast {
+  umbrella header "Pods-FungusToast-umbrella.h"
+
+  export *
+  module * { export * }
+}
